@@ -1,6 +1,9 @@
 configMap:
   enabled: true
   as: file
+  
+openTelemetry:
+  targetUrl: http://tempo.tools:4317  
 
 image:
   repository: ghcr.io/markgruberf/cubix/cloudnative5/api

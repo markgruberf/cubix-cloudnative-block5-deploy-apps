@@ -8,6 +8,8 @@ configMap:
   enabled: true
   as: file
   
+openTelemetry:
+  targetUrl: http://tempo.tools:4317
   
 secret:
 - envName: SPRING_DATASOURCE_PASSWORD

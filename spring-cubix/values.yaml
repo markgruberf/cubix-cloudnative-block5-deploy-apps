@@ -4,6 +4,8 @@ configMap:
   as: ""
 replicaCount: 1
 
+openTelemetry: {}
+
 image:
   repository: ghcr.io/drsylent/cubix/cloudnative5/api
   pullPolicy: IfNotPresent
